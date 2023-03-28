@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    /* background-color: pink; */
+}
+
+.section1 {
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(78, 78, 222); */
+}
+
+.section2 {
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(222, 80, 78); */
+    display: flex;
+    /* justify-content: center; */
+}
+.section3 {
+    width: 100%;
+    height: 30%;
+    /* background-color: rgb(96, 231, 155); */
+    display: flex;
+    justify-content: end;
+}
+
+.box {
+    height: 100%;
+    width: 30vmin;
+}
+
+.box1 {
+    background-color: yellow;
+}
+.box2 {
+    background-color: green;
+}
+.box3 {
+    background-color: red;
+}
+
+.filler {
+    width: 20%;
+    /* background-color: aqua; */
+}
